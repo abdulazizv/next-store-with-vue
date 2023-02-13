@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN play -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- box icons -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Homework</title>
+</head>
+<body>
+  <header class="shadow-2xl">
+    <div class="container mx-auto">
+      <nav class="nav">
+        <div class="start flex ml-[800px] w-[394px]">
+        <i class='bx bxs-envelope text-2xl '></i> <span class="ml-1 text-[18px] mt-[1px]">Aloqa uchun</span>
+        <select name="language" id="lang" class="border border-solid ml-52">
+          <option value="uz" selected>Uz</option>
+          <option value="ru">RU</option>
+          <option value="eng">Eng</option>
+        </select>
+        </div>
+        <div class="main__nav flex text-center items-center h-[70px] mt-3">
+          <a href="#"><img src="./img/Logo.png" alt="logo"></a>
+          <div class="catalog py-2 px-8 rounded-lg ml-28 flex flex-row" style="background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);" >
+            <i class='bx bx-menu text-white text-2xl'></i>
+            <p class="text-white items-center  font-semibold text-xl ml-1.5 mb-[2px]">Katalog</p>
+          </div> 
+          <div class="search border flex flex-row border-white">
+            <input type="text" class="w-[306px] ml-10 py-4 px-4 rounded-xl focus:outline-none focus:ring-4" placeholder="Mahsulotlarni izlash">
+           <button class="btn bg-blue-600 px-2 py-2 rounded-lg"><i class='bx bx-search-alt-2 text-4xl text-white'></i></button>
+          </div>
+          <div class="other ml-12">
+            <i class='bx bx-heart text-blue-400 bg-[#ECF4FF] text-4xl py-2 px-4 rounded-lg'></i>
+            <i class='bx bx-cart text-blue-400 bg-[#ECF4FF] text-4xl py-2 px-4 rounded-lg ml-28'></i>
+          </div>
+          <button class="enter text-black ml-12 font-normal text-xl px-8 py-4 rounded-md" style="background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);">Kirish</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="container mx-auto">
+        <img src="./img/cashback.png" alt="cashback" class="rounded-md mt-10">
+      </div>
+
+      <div class="btns">
+        <span class="text-4xl rounded" style="background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);">1</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
